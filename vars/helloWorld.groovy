@@ -1,3 +1,3 @@
-def call(String name,String company){
-sh "echo Hello $name , Welcome to $company"
+def call(Map config = [:]){
+  sh "echo Hello ${config.name} , Welcome to ${config.company}"
 }

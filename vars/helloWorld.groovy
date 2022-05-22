@@ -1,3 +1,3 @@
 def print(){
-echo "Hello World"
+sh "echo Hello World"
 }
